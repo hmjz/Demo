@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>html</title>
+	<style type="text/css">
+		.st1 {
+			color:blue;text-align:center;
+		}
+
+		.p2 {
+			color:red;font-size:8px;
+		}
+	</style>
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+	
+	<!-- 《目录》 1.字体标签 2.超链接打开新页面 3.表格 4.列表 -->
+	
+    <h1 class="st1">HTML学习demo</h1>
+
+	<p class="p1" title="我一定要成功，一定要！！！">RUNOOB.COM是我html水平上升的一个契机，只要抓住这个机会，我半年内进军码农</p>
+	<p class="p2">RUNOOB.COM是我html水平上升的一个契机，只要抓住这个机会，我半年内进军码农</p>
+
+	<a href="tiao.html">
+		<img src="./images/pq1.jpg" alt="" width='170' height="170">
+	</a>
+	<br/>
+	<!-- 各类字体标签使用 -->
+	<p class="p3">
+		我是普通字体。<br/>
+		<b>我定义的是粗体字</b><br/>
+		<em>定义着重文字</em><br/>
+		<i>定义的斜体字</i><br/>
+		<small>定义小号字</small><br/>
+		<strong>定义加重语气</strong><br/>
+		<sub>定义上标字</sub>
+		<ins style='color:blue;'>定义插入字</ins>
+		<sup>定义上标字</sup><br/>
+	</p>
+	
+	<!-- a标签中加入target属性可以改变跳转显示，如果值为'_blank'，则超链接会在新页面打开 -->
+	<a href="https://www.runoob.com" target='_blank'>访问菜鸟教程在新页面打开</a>
+
+
+	<!-- 表格 -->
+	<table border='1' height='500' width='1000' cellspacing="0" align='center'>
+		<tr align='center' height='auto'>
+			<td>序号</td>
+			<td>维修项目及更换配件</td>
+			<td>单价</td>
+			<td>数量</td>
+			<td>小计</td>
+			<td>工时费</td>
+			<td>合计</td>
+			<td>故障原因</td>
+		</tr>
+		<tr align='center'>
+			<td>1</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr align='center'>
+			<td>2</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr align='center'>
+			<td>3</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr align='center'>
+			<td>4</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr align='center'>
+			<td>5</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr align='center'>
+			<td>6</td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr align='center' height="26">
+			<td rowspan="4">7</td>
+			<td></td>
+			<td colspan="2" rowspan="4"></td>
+			<td rowspan="4"></td>
+			<td rowspan="4"></td>
+			<td rowspan="4"></td>
+			<td rowspan="4"></td>
+		</tr>
+		<tr align="center" height="26"><td></td></tr>
+		<tr align="center" height="26"><td></td></tr>
+		<tr align="center" height="26"><td></td></tr>
+		<tr align='center'>
+			<td colspan="2">备件费用小计：</td>
+			<td colspan="5">工时费用小计：</td>
+			<td>合计：</td>
+		</tr>
+	</table>
+
+	<table height='50' width="900" align="center">
+		<tr align="left">
+				<td>班组长：</td>
+				<td>技术部：</td>
+				<td>服务顾问：</td>
+				<td>客户确认：</td>
+		</tr>
+	</table>
+
+	<!-- ！！！！列表！！！！ -->
+
+	<!-- 无序列表 -->
+	<ul align='center'>
+		<li>milkgod</li>
+		<li>PDD</li>
+		<li>LBW</li>
+	</ul>
+
+	<!-- 有序列表 -->
+	<ol align='center'>
+		<li>Coffee</li>
+		<li style="color:red;">Milk</li>
+	</ol>
+
+	<!-- 自定义列表 -->
+	<dl align='center'>
+		<dt>Coffee</dt>
+		<dd>- black hot drink</dd>
+		<dt>Milk</dt>
+		<dd>- white cold drink</dd>
+	</dl>
+	
+	
+</body>
+</html>
